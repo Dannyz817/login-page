@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+            <h1>Welcome</h1>
+            <h2>back!</h2>
+        </div>
+        <div class="right-container">
+            <h1>Login</h1>
+            <h3>Faça o seu login e acesse a plataforma!</h3>
+
+            <div class="verification">
+                <h3 id="incorrect-password">*login ou senha inválidos</h3>
+                <h3 id="complete-info">*preencha todos os campos</h3>                
+            </div>
+
+
+            <input type="text" name="login" id="login" placeholder="Digite o seu login">
+            <input type="password" name="password" id="login-password" placeholder="Digite a senha">
+
+            <div class="change-password">
+                <h3 id="forgot-password">Esqueceu a senha?</h3>
+                <h3>clique aqui redefinir</h3>
+            </div>
+
+            <button class="btn-submit" onclick="submit()">Entrar</button>
+            
+            <hr>
+
+            <div class="socials">
+                <button class="login-google">
+                    <img src="img/google-logo.png" alt="Google Logo">
+                    <h3>Faça seu login com o Google</h3>
+                </button>
+                <button class="login-in">
+                    <img src="img/in-logo.png" alt="LinkedIn Logo">
+                    <h3>Faça seu login com o LinkedIn</h3>
+                </button>
+            </div>
+
+            <div class="subscribe">
+                <h3>Não tem uma conta?</h3>                
+                <h3 id="subscribe-text">Se cadastre agora mesmo</h3>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

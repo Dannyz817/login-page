@@ -1,0 +1,282 @@
+/*  font-family: "Afacad Flux" 
+    font-family: "Lexend"   */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #eed0c1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 78vw;
+    height: 78vh;
+    margin: 0;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 10%);
+}
+
+.left-container {
+    background-image: url(img/bg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+    margin: 0;
+}
+
+.left-container h1 {
+    color: #212121;
+    font-family: "Afacad Flux";
+    font-size: 44pt;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.left-container h2 {
+    color: #212121;
+    font-family: "Afacad Flux";
+    font-size: 40pt;
+    margin-left: 60px;
+    margin-top: 0;
+}
+
+/* Login ----------------------------------------------------------------------------------------------------------*/
+.right-container {
+    background-color: #f2f2f2;
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container h1 {
+    color: #212121;
+    font-family: "Afacad Flux";
+    font-size: 40pt;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.right-container h3 {
+    color: #212121;
+    font-family: "Afacad Flux";
+    font-weight: 400;
+    font-size: 20pt;
+    margin-left: 60px;
+    margin-top: 0px;
+    margin-bottom: 50px; /* diminuir quando senha incorreta */
+}
+
+input {
+    margin-left: 60px;
+    margin-bottom: 30px;
+    width: 83%;
+    height: 40px;
+    background-color: #f2f2f2;
+    border: none;
+    border-bottom: 2px solid #3a3a3a;
+    font-family: "Lexend";
+    font-size: 14pt;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+#password {
+    margin-bottom: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn-submit {
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 340px;
+    height: 50px;    
+    font-family: "Afacad Flux";
+    font-weight: 500;
+    font-size: 16pt;
+    background-color: #ed7f82;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.btn-submit:hover {
+    background-color: #f49b67;
+    color: #ffffff;
+}
+
+/* Senhas e validações  ----------------------------------------------------------------------------------------------*/
+.verification {
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#incorrect-password {
+    color: #c82626;
+    font-family: "Afacad Flux";
+    font-weight: 500;
+    font-size: 16pt;
+    display: none;
+}
+
+#complete-info {
+    color: #c82626;
+    font-family: "Afacad Flux";
+    font-weight: 500;
+    font-size: 16pt;
+    display: none;
+}
+
+#forgot-password {
+    color: #ed7f82;
+    font-family: "Afacad Flux";
+    font-weight: 500;
+    font-size: 16pt;
+    margin-left: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#forgot-password:hover {
+    text-decoration: underline;
+}
+
+.change-password {
+    display: flex;
+}
+
+.change-password h3 {
+    color: #3a3a3a;
+    font-family: "Afacad Flux";
+    font-weight: 400;
+    font-size: 15pt;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+
+/* Linha separadora ----------------------------------------------------------------------------------------------------------*/
+hr {
+    display: block;
+    color: #b1afaf;
+    opacity: 0.5;
+    margin-left: 60px;
+    width: 83%;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+/* Socias -----------------------------------------------------------------------------------------------------------------*/
+.socials {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Botão entrar com o google --------------*/
+.login-google {
+    margin-top: 10px; 
+    margin-bottom: 20px;
+    margin-right: 5px;
+    padding: 10px 20px; 
+    display: flex;
+    align-items: center; 
+    background-color: #ffffff;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-google:hover {
+    border: 1px solid #ed7f82;
+}
+
+.login-google img {   
+    width: 30px;
+    height: 30px;
+    margin-right: 20px; 
+}
+
+.login-google h3 {
+    font-family: "Afacad Flux";
+    font-weight: 500;
+    font-size: 14pt; 
+    color: #3a3a3a; 
+    margin: 0;
+}
+
+
+/* Botão entrar com o Linkedln ------------------------*/
+.login-in {
+    margin-top: 10px; 
+    margin-bottom: 20px;
+    margin-left: 5px;
+    padding: 10px 20px; 
+    display: flex;
+    align-items: center; 
+    background-color: #ffffff;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login-in:hover {
+    border: 1px solid #ed7f82;
+}
+
+.login-in img {   
+    width: 30px;
+    height: 30px;
+    margin-right: 20px; 
+}
+
+.login-in h3 {
+    font-family: "Afacad Flux";
+    font-weight: 500;
+    font-size: 14pt; 
+    color: #3a3a3a; 
+    margin: 0;
+}
+
+
+/* Se cadastre agora  ----------------------------------------------------------------------------------------------*/
+#subscribe-text {
+    color: #ed7f82;
+    font-family: "Afacad Flux";
+    font-weight: 500;
+    font-size: 15pt;
+    margin-left: 10px;
+}
+
+#subscribe-text:hover {
+    text-decoration: underline;
+}
+
+.subscribe {
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe h3 {
+    color: #3a3a3a;
+    font-family: "Afacad Flux";
+    font-weight: 400;
+    font-size: 15pt;
+}
