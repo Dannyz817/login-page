@@ -20,5 +20,4 @@ Experimente deixar os campos em branco ou inserir credenciais incorretas para te
 
 ![image](https://github.com/user-attachments/assets/e0a74e73-0e45-4264-999e-18d6c0405d17)
 
-#### Autor
-Desenvolvido por Danny Machado.
+
