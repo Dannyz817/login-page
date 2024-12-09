@@ -14,7 +14,7 @@ Este é um projeto de uma página de login desenvolvida com HTML, CSS e JavaScri
 
 ### Como Utilizar
 Utilize as credenciais pré-definidas para testar a autenticação:
-- Login: Dannyz
+- Login: @User
 - Senha: 1234
 Experimente deixar os campos em branco ou inserir credenciais incorretas para testar as mensagens de erro.
 
